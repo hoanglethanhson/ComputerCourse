@@ -1,0 +1,247 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2018, 10:18:30 AM
+    Author     : dell
+*/
+
+body {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    background : url('../images/background.jpg');
+    padding-bottom: 20px;
+}
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    background-color: #F6F6F6;
+    box-shadow: 5px 5px 18px #888888;
+    height: auto;
+    margin-top: -23px;
+    border-radius: 20px;
+}
+.header {
+    height: auto;
+    max-width: inherit;
+    background: #F6F6F6;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.des {
+    margin-top: -30px;
+    
+}
+.menu {
+    height: auto;
+    max-width: inherit;
+    background-color: #DFDFDF;
+    padding-left: 10px;
+    
+}
+.menu-item {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.menu-item>a {
+    color: black;
+    text-decoration: none;
+}
+.menu-item>a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.content {
+    max-width: inherit;
+    overflow: auto;
+    height: auto;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+.normal-title {
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+.course {
+    max-width: 650px;
+    float: left;
+}
+.demo {
+    float: left;
+    height: auto;
+    max-width: inherit;
+    padding-bottom: 40px;
+    border-bottom: 3px dotted #CCCCCC;
+    margin-bottom: 20px;
+}
+.demo-image {
+    max-height: 400px;
+    max-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    float: left;
+}
+
+.list {
+    float: left;
+    clear: both;
+    max-width: inherit;
+    height: auto;
+    padding-bottom: 20px;
+    border-bottom: 3px dotted #CCCCCC;
+}
+.item {
+    height: auto;
+    margin-bottom: 20px;
+}
+.date-td {
+    width: 150px;
+}
+.news-date {
+    height: 100px;
+    max-width: 150px;
+    margin-bottom: 10px;
+    font-style: italic;
+    float: left;   
+}
+.news-content {
+    height: auto;
+    padding-top: -30px;
+    max-width: 550px;
+    
+}
+.course-title {
+    color: black;
+    font-weight: normal;
+        
+}
+.course-title>a:hover {
+    cursor: pointer;
+}
+.border {
+    height: 40px;
+    clear: both;
+    float: left;
+    width: 960px;
+    margin: auto;
+    border-bottom: 1px solid #CCCCCC;
+}
+/*right bar styles */
+.right-bar {
+    max-width: 300px;
+    float: right;
+    padding-left: 30px;
+}
+.share, .create {
+    width: 200px;
+    height: auto;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px  #888888;
+    margin-bottom: 20px;
+    border: 1px solid #888888;  
+}
+.try {
+    width: 180px;
+    height: auto;
+    padding : 5px 5px 5px 5px;
+    background-color: #9A9A9A;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/*footer styles*/
+.footer {
+    max-width: inherit;
+    height: auto;
+    padding-top: 20px;
+    clear: both;   
+}
+/*list styles*/
+.news-list {
+    max-width: inherit;
+    overflow: auto;
+    height: auto;
+    padding-top: 60px;
+}
+.news-item {
+    height: auto;
+    max-width: 600px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.news-image {
+    max-width: 400px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+/*contact styles*/
+.info {
+    height: auto;
+    width: 650px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px dotted #CCCCCC;
+    margin-bottom: 20px;
+}
+.form {
+    height: auto;
+    width: 650px;
+}
+input[type=text], input[type=email] {
+    width: 305px;
+    height: 30px;
+    padding-left: 5px;
+    
+    border: 1px solid #9A9A9A;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 630px;
+    height: 120px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+input[type=submit] {
+    width: auto;
+    height: 40px;
+    background-color: #C3C3C3;
+    text-align: center;
+    float: right;
+    margin-right: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+/*notification styles*/
+.noti {
+    width: 635px;
+    height: auto;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    margin-bottom: 20px;
+}
